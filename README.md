@@ -1,13 +1,3 @@
----
-title:  Seajs使用小结
-author: 黎文欣
-tags: 工具
-categories:
-  - gulp
-blogexcerpt: 文字摘要
-date: 2017-05-13 19:29:41
-thumbnail:
----
 >在SeaJS中，所有JavaScript文件都应该用模块的形式来书写，并且一个文件只包含一个模块。如果没有SeaJS库文件可以[github官网绍](https://github.com/seajs/seajs/)下载。
 
 - 首先来看一下html文件内容，首先引入sea.js文件，然后通过seajs.use加载main.js文件。
